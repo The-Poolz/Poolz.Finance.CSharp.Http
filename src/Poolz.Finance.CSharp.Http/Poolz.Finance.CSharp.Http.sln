@@ -5,6 +5,12 @@ VisualStudioVersion = 17.13.35828.75 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poolz.Finance.CSharp.Http", "Poolz.Finance.CSharp.Http.csproj", "{257A6C6B-915B-4D98-A250-6F2F12E89D98}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C43445A2-69BB-48F5-8D8B-45F82D29028D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poolz.Finance.CSharp.Http.Tests", "..\..\tests\Poolz.Finance.CSharp.Http.Tests\Poolz.Finance.CSharp.Http.Tests.csproj", "{91F0D4AA-D794-4EF2-98B4-3A9274295BD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +21,17 @@ Global
 		{257A6C6B-915B-4D98-A250-6F2F12E89D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{257A6C6B-915B-4D98-A250-6F2F12E89D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{257A6C6B-915B-4D98-A250-6F2F12E89D98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91F0D4AA-D794-4EF2-98B4-3A9274295BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91F0D4AA-D794-4EF2-98B4-3A9274295BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91F0D4AA-D794-4EF2-98B4-3A9274295BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91F0D4AA-D794-4EF2-98B4-3A9274295BD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{257A6C6B-915B-4D98-A250-6F2F12E89D98} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{91F0D4AA-D794-4EF2-98B4-3A9274295BD0} = {C43445A2-69BB-48F5-8D8B-45F82D29028D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AF2F8BF3-0CF6-467C-944A-792A7D687E3C}
